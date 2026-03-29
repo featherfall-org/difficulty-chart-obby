@@ -26,9 +26,15 @@ pesde = "^0.7.0"
 lune = "^0.10.2"
 
 [dependencies]
-quill_core = { name = "featherfall/quill_core", version = "^0.1.0-alpha.2" }
-quill_rblx_components = { name = "featherfall/quill_rblx_components", version = "^0.1.0-alpha.2" }
-quill_rblx_lifecycles = { name = "featherfall/quill_rblx_lifecycles", version = "^0.1.0-alpha.1" }
-quill_dependencies = { name = "featherfall/quill_dependencies", version = "^0.1.0-alpha.3" }
-quill_logger = { name = "featherfall/quill_logger", version = "^0.1.0-alpha.2" }
-fluid = { wally = "ffrostfall/fluid", version = "^0.6.4" }
+knit = { wally = "sleitnick/knit", version = "^1.7.0" }
+component = { wally = "sleitnick/component", version = "^2.4.8" }
+vide = { name = "centau/vide", version = "^0.4.0" }
+charm = { wally = "littensy/charm", version = "^0.11.0-rc.5" }
+charm-sync = { wally = "littensy/charm-sync", version = "^0.4.0-rc.7" }
+vide-charm = { wally = "littensy/vide-charm", version = "^0.4.0-rc.5" }
+ui-labs = { wally = "pepeeltoro41/ui-labs", version = "^2.4.2" }
+typed-promise = { wally = "howmanysmall/typed-promise", version = "^4.0.6" }
+janitor = { wally = "howmanysmall/janitor", version = "^1.18.3" }
+conch = { name = "alicesaidhi/conch", version = "^0.4.0-rc.6" }
+conch-ui = { wally = "alicesaidhi/conch-ui", version = "^0.4.0-rc.7" }
+lyra = { wally = "paradoxum-games/lyra", version = "^0.6.0" }
