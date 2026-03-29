@@ -5,11 +5,11 @@
 
     "server": "./src/server/",
     "services": "./src/server/services/",
-    "srv_components": "./src/server/ct/",
+    "srv_components": "./src/server/components/",
 
     "client": "./src/client/",
     "controllers": "./src/client/controllers/",
-    "clt_components": "./src/client/ct/",
+    "clt_components": "./src/client/components/",
 
     "shared": "./src/shared/"
   }
