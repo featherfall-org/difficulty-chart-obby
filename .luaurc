@@ -1,0 +1,16 @@
+{
+  "languageMode": "strict",
+  "aliases": {
+    "pkg": "./roblox_packages/",
+
+    "server": "./src/server/",
+    "services": "./src/server/services/",
+    "srv_components": "./src/server/ct/",
+
+    "client": "./src/client/",
+    "controllers": "./src/client/controllers/",
+    "clt_components": "./src/client/ct/",
+
+    "shared": "./src/shared/"
+  }
+}

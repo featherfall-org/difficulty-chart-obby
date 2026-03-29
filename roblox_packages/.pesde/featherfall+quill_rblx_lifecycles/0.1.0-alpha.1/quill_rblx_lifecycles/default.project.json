@@ -1,0 +1,19 @@
+{
+  "name": "quill_rblx_lifecycles",
+  "tree": {
+    "$className": "Folder",
+    "lib": {
+      "$path": "lib"
+    },
+    "roblox_packages": {
+      "$path": {
+        "optional": "roblox_packages"
+      }
+    },
+    "roblox_server_packages": {
+      "$path": {
+        "optional": "roblox_server_packages"
+      }
+    }
+  }
+}

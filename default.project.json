@@ -1,0 +1,24 @@
+{
+  "name": "rc-05",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "shared": {
+        "$path": "src/shared"
+      },
+      "client": {
+        "$path": "src/client"
+      },
+      "pkg": {
+        "$path": "roblox_packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "server": {
+        "$path": "src/server"
+      }
+    }
+  }
+}

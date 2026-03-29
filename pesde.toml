@@ -1,0 +1,34 @@
+name = "utterlyterrible/rc_05"
+version = "0.0.1"
+description = "Development repo for Research Complex 05"
+authors = ["UtterlyTerrible"]
+repository = "https://github.com/utterlyterrible/rc-05"
+
+[target]
+environment = "roblox"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+
+[dev_dependencies]
+scripts = { name = "pesde/scripts_rojo", version = "^0.2.0", target = "lune" }
+rojo = { name = "pesde/rojo", version = "^7.5.1", target = "lune" }
+
+[engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+[dependencies]
+quill_core = { name = "featherfall/quill_core", version = "^0.1.0-alpha.2" }
+quill_rblx_components = { name = "featherfall/quill_rblx_components", version = "^0.1.0-alpha.2" }
+quill_rblx_lifecycles = { name = "featherfall/quill_rblx_lifecycles", version = "^0.1.0-alpha.1" }
+quill_dependencies = { name = "featherfall/quill_dependencies", version = "^0.1.0-alpha.3" }
+quill_logger = { name = "featherfall/quill_logger", version = "^0.1.0-alpha.2" }
+fluid = { wally = "ffrostfall/fluid", version = "^0.6.4" }

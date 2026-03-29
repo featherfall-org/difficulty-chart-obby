@@ -1,0 +1,18 @@
+name = "featherfall/quill_rblx_components"
+version = "0.1.0-alpha.2"
+description = "A simple components system for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+private = false
+includes = ["lib", "lib/**", "LICENSE", "pesde.toml", "README.md"]
+
+[target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+[dependencies.core]
+name = "featherfall/quill_core"
+version = "^0.1.0-alpha.2"
+index = "https://github.com/pesde-pkg/index"
