@@ -1,8 +1,8 @@
-name = "utterlyterrible/rc_05"
+name = "utterlyterrible/anderson_robotics"
 version = "0.0.1"
 description = "Development repo for Research Complex 05"
 authors = ["UtterlyTerrible"]
-repository = "https://github.com/utterlyterrible/rc-05"
+repository = "https://github.com/utterlyterrible/anderson-robotics"
 
 [target]
 environment = "roblox"

@@ -1,5 +1,5 @@
 {
-  "name": "rc-05",
+  "name": "anderson-robotics",
   "tree": {
     "$className": "DataModel",
 
@@ -8,7 +8,10 @@
         "$path": "out/shared"
       },
       "client": {
-        "$path": "out/client"
+        "$path": "out/client",
+        "ui": {
+          "$path": "out/ui"
+        }
       },
       "pkg": {
         "$path": "roblox_packages"
