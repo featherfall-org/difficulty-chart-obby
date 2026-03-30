@@ -11,6 +11,8 @@
     "controllers": "./src/client/controllers/",
     "clt_components": "./src/client/components/",
 
+    "ui": "./src/ui/",
+
     "shared": "./src/shared/"
   }
 }

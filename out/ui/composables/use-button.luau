@@ -1,4 +1,4 @@
-local vide = require("@pkg/vide")
+local vide = require(game:GetService('ReplicatedStorage'):FindFirstChild('pkg'):FindFirstChild('vide'))
 
 export type Events = {
     onClick: (() -> ())?,
